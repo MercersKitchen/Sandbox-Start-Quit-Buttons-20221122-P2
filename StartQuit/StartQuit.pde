@@ -8,7 +8,10 @@ void draw ()
   if ( noNowReallyStart==true ) background(0); //Night Mode not considered yet
 } //End draw
 //
-void keyPressed () {} //End KeyPressed
+void keyPressed ()
+{
+  if () noNowReallyStart = true;
+} //End KeyPressed
 //
 void mousePressed()
 {
