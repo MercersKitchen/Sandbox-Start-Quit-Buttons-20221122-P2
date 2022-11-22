@@ -14,7 +14,7 @@ void keyPressed ()
   if ( key==' ' && start==true) noNowReallyStart = true;
   //
   //Prototype Key Board Quit Button OR Shortcut
-  if () ;
+  if ( key=='Q' || key=='q') exit() ;
   if () ;
   //
 } //End KeyPressed
