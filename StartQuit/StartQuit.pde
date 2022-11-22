@@ -10,7 +10,13 @@ void draw ()
 //
 void keyPressed ()
 {
+  //Post-OS Level Start Button
   if ( key==' ' && start==true) noNowReallyStart = true;
+  //
+  //Prototype Key Board Quit Button OR Shortcut
+  if () ;
+  if () ;
+  //
 } //End KeyPressed
 //
 void mousePressed()
