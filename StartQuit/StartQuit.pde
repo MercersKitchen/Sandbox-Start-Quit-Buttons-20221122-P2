@@ -1,4 +1,5 @@
 //Global Variables
+Boolean start=false;
 //
 void setup() {} //End setup
 //
