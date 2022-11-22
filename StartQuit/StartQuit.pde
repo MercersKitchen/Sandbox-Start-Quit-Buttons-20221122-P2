@@ -5,7 +5,7 @@ void setup() {} //End setup
 //
 void draw ()
 {
-  if ( start==true ) background(0); //Night Mode not considered yet
+  if ( noNowReallyStart==true ) background(0); //Night Mode not considered yet
 } //End draw
 //
 void keyPressed () {} //End KeyPressed
@@ -15,6 +15,7 @@ void mousePressed()
   //
   //OS Level Start Button
   start = true;
+  println("To Start, Press the Space Bar");
   //
 } //End mousePressed
 //
