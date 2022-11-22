@@ -10,7 +10,7 @@ void draw ()
 //
 void keyPressed ()
 {
-  if () noNowReallyStart = true;
+  if ( key==' ' && start==true) noNowReallyStart = true;
 } //End KeyPressed
 //
 void mousePressed()
