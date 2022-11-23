@@ -26,8 +26,9 @@ void draw ()
     background(0); //Night Mode not considered yet
     //
     //Hover Over Feature
-    println("X-value", quitButtonX, ,quitButtonX+quitButtonWidth );
-    println("Y-value", quitButtonY, ,quitButtonY+quitButtonHeight ); 
+    println("X-value", quitButtonX, mouseX ,quitButtonX+quitButtonWidth );
+    println("Y-value", quitButtonY, mouseY ,quitButtonY+quitButtonHeight ); 
+    /*
     if () {
       quitButtonColour = yellow;
     } else {
@@ -35,6 +36,7 @@ void draw ()
     } //End Quit Button Colour
     //
     fill(quitButtonColour); 
+    */
     rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight ); //Quit Button with Hoverover
   }
 } //End draw
