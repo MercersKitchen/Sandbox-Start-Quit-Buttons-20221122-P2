@@ -8,7 +8,7 @@ void draw ()
 {
   if ( noNowReallyStart==true ) {
     background(0); //Night Mode not considered yet
-    rect(); //Quit Button with Hoverover
+    rect( quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight ); //Quit Button with Hoverover
   }
 } //End draw
 //
