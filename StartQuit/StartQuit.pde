@@ -12,8 +12,10 @@ void setup()
   appHeight = height;
   //
   //Population
-  quitButtonX = ;
-  quitButtonY = ;
+  float centerX = appWidth * 1/2;
+  float centerY = appHeight * 1/2;
+  quitButtonX = centerX;
+  quitButtonY = centerY;
   quitButtonWidth = ;
   quitButtonHeight = ;
 } //End setup
