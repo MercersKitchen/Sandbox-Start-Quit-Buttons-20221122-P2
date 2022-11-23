@@ -1,7 +1,20 @@
 //Global Variables
 Boolean start=false, noNowReallyStart=false;
+float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 //
-void setup() {
+void setup()
+{
+  //Display & Orientation Algorithms not consider yet
+  size();
+  //fullScreen(); //displayWidth, displayHeight
+  appWidth = ;
+  appHeight = ;
+  //
+  //Population
+  quitButtonX = ;
+  quitButtonY = ;
+  quitButtonWidth = ;
+  quitButtonHeight = ;
 } //End setup
 //
 void draw ()
