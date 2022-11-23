@@ -14,7 +14,7 @@ void setup()
   //Population
   float centerX = appWidth * 1/2;
   float centerY = appHeight * 1/2;
-  quitButtonX = centerX;
+  quitButtonX = centerX - ( appWidth * 1/4 );
   quitButtonY = centerY;
   quitButtonWidth = ;
   quitButtonHeight = ;
