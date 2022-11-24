@@ -8,16 +8,13 @@ void setup()
 {
   size(400, 300); //Landscape
   //fullScreen(); //displayWidth, displayHeight
+  displayOrientation();
   appWidth = width;
   appHeight = height;
   //
-  //Population
-  float centerX = appWidth * 1/2;
-  float centerY = appHeight * 1/2;
-  quitButtonX = centerX - ( appWidth * 1/4 );
-  quitButtonY = centerY - ( appHeight * 1/4 );
-  quitButtonWidth = appWidth * 1/2; //could be centerX, but that is a point
-  quitButtonHeight = appHeight * 1/2; //same comment as centerX, point not line
+  population();
+  
+  
 } //End setup
 //
 void draw ()
