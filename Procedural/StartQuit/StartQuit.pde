@@ -6,7 +6,6 @@ color quitButtonColour, yellow=#FFFF00 , purple=#FF00FF ;
 //
 void setup()
 {
-  //Display & Orientation Algorithms not consider yet
   size(400, 300); //Landscape
   //fullScreen(); //displayWidth, displayHeight
   appWidth = width;
